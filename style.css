@@ -1,0 +1,151 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+/*start header*/
+.header{
+	width: 100%;
+	overflow: hidden;
+	padding: 25px;
+	border-bottom:  1px solid grey;
+
+
+}
+
+.logo{
+	/*border: 1px solid black;*/
+	width: 30%;
+	float: left;
+	box-sizing: border-box;
+}
+.logo h2{
+	margin: 0;
+	display: inline-block;
+	transform: translateY(-18px);
+	text-transform: uppercase;
+}
+
+.icon{
+	/*border: 1px solid red;*/
+	width: 25%;
+	float: right;
+	box-sizing: border-box;
+}
+/*end header*/
+
+/*start menu*/
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 25px;
+	margin-left: -35px;
+}
+/*end menu*/
+
+/*start slider*/
+.slider{
+	margin: 0;
+	width: 100%;
+	margin-bottom: 100px;
+}
+.slider img{
+	width: 100%;
+	position: relative;
+}
+
+.slider p{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: sans-serif;
+}
+.silder_bg img{
+	width: 100%;
+	position: absolute;
+	bottom: 50px;
+
+}
+
+.slider_button{
+	margin-top: 30px;
+	margin-left: 425px;
+	padding: 15px;
+	background-color: green;
+	color: white;
+}
+/*end slider*/
+
+/*start content*/
+.content{
+	width: 100%;
+	overflow: hidden;
+	/*position: relative;*/
+}
+
+.content_h1{
+	width: 50%;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: bold;
+	float: left;
+	box-sizing: border-box;
+	color: white;
+}
+
+.content_button{
+	width: 20%;
+	margin: 0;
+	float: right;
+	box-sizing: border-box;
+}
+
+.content_buttons{
+	margin-top: 15px;
+	padding: 8px;
+	background-color: green;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+	
+.content_bg{
+	margin: -80px;
+	background-color: black;
+	height: 120px;
+	
+}
+
+/*end content*/
+
+/*start footer*/
+.footer{
+	margin-top: 50px;
+	background-color: grey;
+	overflow: hidden;
+}
+
+
+.footer_left{
+	float: left;
+	box-sizing: border-box;
+	
+}
+.footer_right{
+	float: right;
+	box-sizing: border-box;
+}
+
+.footer_right p{
+	text-transform: uppercase;
+}
+.footer_left p{
+	text-transform: uppercase;
+
+}
+/*end footer*/
